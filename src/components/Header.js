@@ -33,7 +33,7 @@ export const Header = () => {
         <div className=" flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
             <img src={Logo} className="mr-3 h-8 sm:h-9" alt="Cinemate Logo" />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Cinemate</span>
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Cinema Mate</span>
           </Link>
           <div id="mobileNav" className="flex md:order-2">
             <button onClick={()=>setDarkMode(!darkMode)} data-tooltip-target="navbar-search-example-toggle-dark-mode-tooltip" 
